@@ -1,24 +1,432 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turbine sua carreira com IA - Curso Online</title>
-    <meta name="description" content="Aprenda a usar Inteligência Artificial de forma prática e estratégica. Curso online ao vivo - 20/09/2025. Apenas R$ 39,99. Vagas limitadas!" />
-    <meta name="author" content="ERMASEG Soluções Empresariais" />
+    <meta name="description" content="Aprenda a usar Inteligência Artificial de forma prática e estratégica. Curso online ao vivo - 20/09/2025. Apenas R$ 39,99. Vagas limitadas!">
+    <meta name="author" content="ERMASEG Soluções Empresariais">
 
-    <meta property="og:title" content="Turbine sua carreira com IA - Curso Online" />
-    <meta property="og:description" content="Aprenda a usar Inteligência Artificial de forma prática e estratégica. Curso online ao vivo - 20/09/2025. Apenas R$ 39,99. Vagas limitadas!" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:title" content="Turbine sua carreira com IA - Curso Online">
+    <meta property="og:description" content="Aprenda a usar Inteligência Artificial de forma prática e estratégica. Curso online ao vivo - 20/09/2025. Apenas R$ 39,99. Vagas limitadas!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@lovable_dev">
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.462.0/lucide.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background">
+            <img src="src/assets/ai-hero.jpg" alt="AI Technology Background" class="hero-image">
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge animate-float">
+                    <span>20 de Setembro • 9h às 12h30 • Online</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Turbine sua <span class="gradient-text">carreira</span> com<br>
+                    <span class="gradient-text-alt">Inteligência Artificial</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Aprenda a usar IA de forma prática e estratégica para impulsionar sua carreira. 
+                    Domine as ferramentas que estão transformando o mercado de trabalho.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('inscricao')">
+                        Garanta sua vaga por R$ 39,99
+                    </button>
+                    <button class="btn btn-outline" onclick="scrollToSection('programa')">
+                        Ver programação
+                    </button>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">3.5h</div>
+                        <div class="stat-label">de conteúdo intensivo</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">online e ao vivo</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Vagas</div>
+                        <div class="stat-label">limitadas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Benefits Section -->
+    <section id="beneficios" class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que aprender IA agora?</h2>
+                <p>A Inteligência Artificial não é mais o futuro - é o presente. Profissionais que dominam IA estão se destacando no mercado e conquistando melhores oportunidades.</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card highlight">
+                    <div class="benefit-icon">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3>Acelere sua Produtividade</h3>
+                    <p>Automatize tarefas repetitivas e foque no que realmente importa. Profissionais que usam IA são até 40% mais produtivos.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i data-lucide="brain"></i>
+                    </div>
+                    <h3>Desenvolva Habilidades do Futuro</h3>
+                    <p>Aprenda competências que serão essenciais nos próximos anos e garanta sua relevância no mercado de trabalho.</p>
+                </div>
+                
+                <div class="benefit-card highlight">
+                    <div class="benefit-icon">
+                        <i data-lucide="target"></i>
+                    </div>
+                    <h3>Tome Decisões Mais Inteligentes</h3>
+                    <p>Use dados e insights gerados por IA para tomar decisões mais precisas e estratégicas em sua área.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Destaque-se da Concorrência</h3>
+                    <p>Seja reconhecido como um profissional inovador que está na vanguarda da transformação digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="programa" class="program-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Programação Completa</h2>
+                <p>3.5 horas de conteúdo prático e interativo para dominar a IA e aplicá-la na sua área profissional.</p>
+            </div>
+            
+            <div class="program-timeline">
+                <div class="program-item">
+                    <div class="program-time">
+                        <i data-lucide="clock"></i>
+                        <span>09:00 - 09:30</span>
+                    </div>
+                    <div class="program-content">
+                        <div class="program-title">
+                            <i data-lucide="play"></i>
+                            <h3>Introdução à IA</h3>
+                        </div>
+                        <p>Entenda o que é, sua origem e aplicações atuais</p>
+                    </div>
+                </div>
+                
+                <div class="program-item">
+                    <div class="program-time">
+                        <i data-lucide="clock"></i>
+                        <span>09:30 - 10:00</span>
+                    </div>
+                    <div class="program-content">
+                        <div class="program-title">
+                            <i data-lucide="play"></i>
+                            <h3>O que é e o que não é IA</h3>
+                        </div>
+                        <p>Desmistificando conceitos e separando fatos de ficção</p>
+                    </div>
+                </div>
+                
+                <div class="program-item highlight">
+                    <div class="program-time">
+                        <i data-lucide="clock"></i>
+                        <span>10:00 - 10:30</span>
+                    </div>
+                    <div class="program-content">
+                        <div class="program-title">
+                            <i data-lucide="play"></i>
+                            <h3>Como interagir com a IA</h3>
+                        </div>
+                        <p>Fundamentos de comunicação com assistentes inteligentes</p>
+                    </div>
+                    <div class="highlight-badge">Destaque</div>
+                </div>
+                
+                <div class="program-item highlight">
+                    <div class="program-time">
+                        <i data-lucide="clock"></i>
+                        <span>10:30 - 11:30</span>
+                    </div>
+                    <div class="program-content">
+                        <div class="program-title">
+                            <i data-lucide="play"></i>
+                            <h3>Prompting para Áreas Profissionais</h3>
+                        </div>
+                        <p>Exemplos práticos aplicados em vendas, TI, marketing, educação e mais</p>
+                    </div>
+                    <div class="highlight-badge">Destaque</div>
+                </div>
+                
+                <div class="program-item">
+                    <div class="program-time">
+                        <i data-lucide="clock"></i>
+                        <span>11:30 - 12:00</span>
+                    </div>
+                    <div class="program-content">
+                        <div class="program-title">
+                            <i data-lucide="play"></i>
+                            <h3>Futuro da IA - Como me preparar?</h3>
+                        </div>
+                        <p>Tendências, oportunidades e habilidades do profissional do futuro</p>
+                    </div>
+                </div>
+                
+                <div class="program-item">
+                    <div class="program-time">
+                        <i data-lucide="clock"></i>
+                        <span>12:00 - 12:30</span>
+                    </div>
+                    <div class="program-content">
+                        <div class="program-title">
+                            <i data-lucide="play"></i>
+                            <h3>Perguntas e Respostas</h3>
+                        </div>
+                        <p>Espaço para tirar dúvidas diretamente com o professor</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="interaction-info">
+                <div class="interaction-header">
+                    <i data-lucide="message-circle"></i>
+                    <h3>Interação Ao Vivo</h3>
+                </div>
+                <p>Durante todo o evento, você poderá fazer perguntas no chat e interagir diretamente com o instrutor. Aproveite esta oportunidade única para esclarecer suas dúvidas em tempo real.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que dizem nossos alunos</h2>
+                <p>Histórias reais de profissionais que transformaram suas carreiras com o conhecimento em Inteligência Artificial.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i data-lucide="quote"></i>
+                    </div>
+                    <div class="stars">
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                    </div>
+                    <p class="testimonial-content">"O curso me abriu os olhos para as possibilidades da IA no marketing. Agora uso ferramentas de IA diariamente para criar campanhas mais eficientes."</p>
+                    <div class="testimonial-author">
+                        <h4>Maria Silva</h4>
+                        <span>Gerente de Marketing</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i data-lucide="quote"></i>
+                    </div>
+                    <div class="stars">
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                    </div>
+                    <p class="testimonial-content">"Excelente didática! Consegui entender conceitos complexos de forma simples e aplicar no meu trabalho imediatamente."</p>
+                    <div class="testimonial-author">
+                        <h4>João Santos</h4>
+                        <span>Desenvolvedor</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i data-lucide="quote"></i>
+                    </div>
+                    <div class="stars">
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                        <i data-lucide="star" class="star-filled"></i>
+                    </div>
+                    <p class="testimonial-content">"Investimento que se paga sozinho. A IA está me ajudando a automatizar processos e focar no que realmente importa no meu negócio."</p>
+                    <div class="testimonial-author">
+                        <h4>Ana Costa</h4>
+                        <span>Empreendedora</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="inscricao" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Garanta sua vaga agora</h2>
+                <p>Investimento simbólico para transformar sua carreira. Vagas limitadas!</p>
+            </div>
+            
+            <div class="pricing-card-wrapper">
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Mais Popular</div>
+                    <div class="pricing-header">
+                        <h3>Curso Completo de IA</h3>
+                        <div class="price">
+                            <span class="currency">R$</span>
+                            <span class="amount">39</span>
+                            <span class="cents">,99</span>
+                        </div>
+                        <p class="price-description">Pagamento único • 20 de Setembro</p>
+                    </div>
+                    
+                    <div class="features-list">
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>3.5 horas de conteúdo ao vivo</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Exemplos práticos para sua área</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Interação direta com o instrutor</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Material de apoio incluído</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Certificado de participação</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Gravação disponível por 30 dias</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary btn-large" onclick="window.open('https://www.sympla.com.br/evento-online/turbine-sua-carreira-com-a-inteligencia-artificial/3092595', '_blank')">
+                        Inscrever-se Agora
+                    </button>
+                    
+                    <div class="guarantee">
+                        <i data-lucide="shield-check"></i>
+                        <span>Garantia de 7 dias ou seu dinheiro de volta</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="urgency-info">
+                <div class="urgency-item">
+                    <i data-lucide="users"></i>
+                    <div>
+                        <strong>Vagas Limitadas</strong>
+                        <span>Para garantir qualidade da interação</span>
+                    </div>
+                </div>
+                <div class="urgency-item">
+                    <i data-lucide="clock"></i>
+                    <div>
+                        <strong>Inscrições até 19/09</strong>
+                        <span>Não perca esta oportunidade</span>
+                    </div>
+                </div>
+                <div class="urgency-item">
+                    <i data-lucide="calendar"></i>
+                    <div>
+                        <strong>Única turma de 2025</strong>
+                        <span>Próxima oportunidade apenas em 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ERMASEG Soluções Empresariais</h3>
+                    <p>Transformando carreiras através da educação em tecnologia e inteligência artificial.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <a href="mailto:contato@ermaseg.com.br">
+                            <i data-lucide="mail"></i>
+                            contato@ermaseg.com.br
+                        </a>
+                        <a href="tel:+5511999999999">
+                            <i data-lucide="phone"></i>
+                            (11) 99999-9999
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <i data-lucide="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Política de Reembolso</a>
+                </div>
+                <p>&copy; 2025 ERMASEG Soluções Empresariais. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
